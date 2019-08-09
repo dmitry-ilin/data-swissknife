@@ -1,0 +1,51 @@
+# Specifies intentionally untracked files that Git should ignore
+# See also .gitignore creator:
+# https://www.gitignore.io/
+
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### MacOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+### JetBrains ###
+.idea/
+
+### NetBeans ###
+nbproject/
+
+### SublimeText ###
+*.sublime-workspace
+*.sublime-project
+
+### Visual Studio Code ###
+.vscode/
+
+### Node, NPM, Yarn ###
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+.npm
+
+### Current Project ###
+docs/

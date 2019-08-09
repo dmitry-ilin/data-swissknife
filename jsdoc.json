@@ -1,0 +1,38 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc"]
+  },
+  "source": {
+    "exclude": [
+      "config/*",
+      "logs/*",
+      "docs/*",
+      "test/*"
+    ],
+    "include": [
+      "./server",
+      "./client",
+      "./common"
+    ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "useCollapsibles": true,
+    "footerText": "Data Toolbox documentation",
+    "logo": {
+      "width": "0px",
+      "height": "0px"
+    }
+  },
+  "opts": {
+    "template": "node_modules/tui-jsdoc-template",
+    "encoding": "utf8",
+    "destination": "./docs/",
+    "recurse": true
+  }
+}
