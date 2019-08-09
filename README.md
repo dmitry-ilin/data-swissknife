@@ -1,4 +1,4 @@
-# Data Toolbox
+# Data Swissknife
 
 Personal compilation of useful data processing tools.
 
@@ -11,3 +11,9 @@ Personal compilation of useful data processing tools.
 * Gulp Tasks
 * Handlebars
 * Live Server Preview
+
+## TODO
+
+1. Need to work on proper naming convention
+2. Add docs
+3. Implement new project bootstrapping
