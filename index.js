@@ -1,5 +1,5 @@
 const stream = require('highland');
-const functional = require('lodash');
+const fp = require('lodash');
 const nlp = require('natural');
 const numbers = require('numbers');
 const math = require('mathjs');
@@ -27,7 +27,7 @@ if (global.CanvasGradient === undefined) {
 
 
 const Toolbox = {
-  functional,
+  fp,
   stream,
   nlp,
   numbers,
