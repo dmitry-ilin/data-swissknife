@@ -14,6 +14,7 @@ const { CanvasRenderService } = require('chartjs-node-canvas');
 const storage = require('./src/cacache');
 const readToJSON = require('quaff');
 const date = require('moment');
+const request = require('request');
 
 const path = require('path');
 const pkgDir = require('pkg-dir');
@@ -42,6 +43,7 @@ const Toolbox = {
   storage,
   readToJSON,
   date,
+  request,
   chart: (width, height, callback) => new CanvasRenderService(width, height, (ChartJS) => {
     // Default setup
     ChartJS.plugins.register(colorschemes);
