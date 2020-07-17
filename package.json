@@ -23,7 +23,7 @@
     "highland": "^2.13.5",
     "jsreport": "^2.5.0",
     "jsreport-html-embedded-in-docx": "^2.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mathjs": "^6.0.4",
     "mem": "^5.1.1",
     "mississippi": "^4.0.0",
