@@ -27,7 +27,7 @@
     "mathjs": "^6.0.4",
     "mem": "^5.1.1",
     "mississippi": "^4.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "natural": "^0.6.3",
     "node-gyp": "^5.0.3",
     "node-pre-gyp": "^0.13.0",
